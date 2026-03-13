@@ -1,4 +1,4 @@
-const CACHE_NAME = 'grade-analyzer-v29';
+const CACHE_NAME = 'grade-analyzer-v30';
 
 self.addEventListener('install', (e) => {
     // 立即套用更新
@@ -18,3 +18,4 @@ self.addEventListener('fetch', (e) => {
         })
     );
 });
+
